@@ -1,4 +1,60 @@
+body {
+  background: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+}
 h1 {
+  background-color: #f5e6e5;
+  border-radius: 10px;
+  color: #272044;
+  font-family: "monospace";
+  font-size: 60px;
+  margin: 20px;
+  padding: 30px;
   text-align: center;
-  color: rebeccapurple;
+}
+label {
+  display: block;
+}
+li {
+  margin: 20px;
+  padding: 10px;
+  border-radius: 10px;
+  transition: all 200ms ease-in-out;
+  list-style: none;
+  margin: 0 auto;
+  font-size: 20px;
+  text-align: left;
+}
+li:hover {
+  background: #f5e6e5;
+}
+.day {
+  font-size: 20px;
+}
+.city {
+  font-size: 22px;
+}
+.condition {
+  font-size: 20px;
+}
+.city-info {
+  color: #272044;
+}
+.current-temp {
+  font-size: 50px;
+  font-family: monospace;
+}
+.sunny,
+.cloudy-sunny,
+.rainy,
+.windy {
+  font-size: 90px;
+}
+.card {
+  width: 180px;
+}
+.row {
+  justify-content: space-around;
+}
+.container {
+  max-width: 1000px;
 }
